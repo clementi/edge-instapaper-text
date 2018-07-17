@@ -1,0 +1,28 @@
+{
+  "name": "Read with Instapaper",
+  "version": "0.0",
+  "description": "Instantly view any compatible web page in Instapaper's text view.",
+  "author": "Jeff Pratt",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "20": "icons/icon_20.png",
+      "25": "icons/icon_25.png",
+      "30": "icons/icon_30.png",
+      "40": "icons/icon_40.png"
+    },
+    "default_title": "Read with Instapaper"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "minimum_edge_version": "37.14316.1000.0",
+  "background": {
+    "scripts": [ "js/background.js" ]
+  }
+}
